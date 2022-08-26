@@ -1,0 +1,83 @@
+/* Color var 
+    background = hsl(15, 9%, 17%)
+*/
+
+body {
+    background-color: hsl(15, 9%, 17%);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+/* START NAV BAR */
+
+.list-header {
+    display: flex;
+    position: absolute;
+    border: 2px solid white;
+    width: 100%;
+    height: 6em;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(15, 9%, 21%);
+}
+
+.list-header ul {
+    justify-content: center;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.list-header ul,
+img {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 15px;
+}
+
+.list-header li {
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+}
+
+.list-header li a {
+    text-decoration: none;
+    color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    transition: all ease 0.5s;
+}
+
+.list-header li a:hover {
+    transition: all ease 0.5s;
+    color: hsla(39, 74%, 49%, 0.931);
+}
+
+
+/* END NAV BAR */
+
+
+/* START MAIN SECTION INTRO */
+
+.intro {
+    position: relative;
+    top: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+    border: 2px solid white;
+    width: 100%;
+    background-color: hsl(15, 9%, 21%);
+    color: wheat;
+}
+
+.intro h2 {
+    text-decoration: underline;
+}
+
+
+/* END MAIN SECTION INTRO */
