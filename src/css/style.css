@@ -5,6 +5,7 @@
 body {
     background-color: hsl(15, 9%, 17%);
     box-sizing: border-box;
+    height: 100%;
     overflow: hidden;
 }
 
@@ -81,3 +82,21 @@ img {
 
 
 /* END MAIN SECTION INTRO */
+
+
+/* START FOOTER SECTION INTRO */
+
+.footer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    width: 100%;
+    background-color: hsl(15, 9%, 21%);
+    color: wheat;
+    bottom: 0px;
+}
+
+
+/* END FOOTER SECTION INTRO */
