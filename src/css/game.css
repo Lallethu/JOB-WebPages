@@ -1,0 +1,20 @@
+body {
+    overflow: auto;
+}
+
+.img-placement {
+    display: grid;
+}
+
+#img-game-0 {
+    position: relative;
+    width: 90px;
+    height: 90px;
+    transition: ease all .75s;
+}
+
+#img-game-0:hover {
+    width: auto;
+    height: auto;
+    scale: all ease .75s;
+}
