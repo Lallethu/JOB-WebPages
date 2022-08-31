@@ -1,0 +1,16 @@
+.trad {
+    display: grid;
+}
+
+.trad img {
+    position: relative;
+}
+
+.intro-2 {
+    margin-top: 48px;
+    padding: 18px 0px 3px 0px;
+}
+
+li {
+    list-style: none;
+}
